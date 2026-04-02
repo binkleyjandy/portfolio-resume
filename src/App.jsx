@@ -469,8 +469,8 @@ function ProjectDetail({ project }) {
 
 /* ── Main App ── */
 export default function Portfolio() {
-  const [tab, setTab] = useState("PROJECTS");
-  const tabs = ["PROJECTS", "TIMELINE", "ABOUT"];
+  const [tab, setTab] = useState("THINGS I'VE BUILT");
+  const tabs = ["THINGS I'VE BUILT", "CAREER TIMELINE", "ABOUT ME"];
 
   return (
     <div style={{ minHeight: "100vh", background: "#f0ece4", fontFamily: "'DM Sans', sans-serif" }}>
@@ -525,7 +525,7 @@ export default function Portfolio() {
       <div style={{ maxWidth: 820, margin: "0 auto", padding: "0 32px 80px" }}>
 
         {/* ── PROJECTS TAB ── */}
-        {tab === "PROJECTS" && (
+        {tab === "THINGS I'VE BUILT" && (
           <div>
             {PROJECTS.map((p, i) => (
               <AccordionRow key={i} title={p.name} right={p.tag.toLowerCase()}>
@@ -536,7 +536,7 @@ export default function Portfolio() {
         )}
 
         {/* ── TIMELINE TAB ── */}
-        {tab === "TIMELINE" && (
+        {tab === "CAREER TIMELINE" && (
           <div>
             {TIMELINE.map((job, i) => (
               <AccordionRow
@@ -580,8 +580,8 @@ export default function Portfolio() {
           </div>
         )}
 
-        {/* ── ABOUT TAB ── */}
-        {tab === "ABOUT" && (
+        {/* ── ABOUT ME TAB ── */}
+        {tab === "ABOUT ME" && (
           <div>
             <AccordionRow title="About me" defaultOpen>
               <p style={{ fontSize: 15, color: "#4a4440", lineHeight: 1.7, maxWidth: 620 }}>

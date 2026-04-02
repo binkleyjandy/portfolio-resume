@@ -470,7 +470,7 @@ function ProjectDetail({ project }) {
 /* ── Main App ── */
 export default function Portfolio() {
   const [tab, setTab] = useState("PROJECTS");
-  const tabs = ["PROJECTS", "TIMELINE", "ABOUT"];
+  const tabs = ["THINGS I'VE BUILT", "CAREER TIMELINE", "ABOUT ME"];
 
   return (
     <div style={{ minHeight: "100vh", background: "#f0ece4", fontFamily: "'DM Sans', sans-serif" }}>
