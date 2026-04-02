@@ -484,7 +484,7 @@ export default function Portfolio() {
       <div style={{ maxWidth: 820, margin: "0 auto", padding: "60px 32px 0" }}>
         <div style={{ marginBottom: 48 }}>
           <div style={{ fontSize: 22, fontWeight: 500, color: "#1a1714", marginBottom: 4 }}>
-            Andy Binkley ~ GTM Leader
+            Andy Binkley ~ AI GTM Builder
           </div>
           <div style={{ fontSize: 14, color: "#8a8278", lineHeight: 1.8 }}>
             Ponte Vedra Beach, FL · binkleyjandy@gmail.com ·{" "}
