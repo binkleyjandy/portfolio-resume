@@ -43,11 +43,10 @@ const PROJECTS = [
     tag: "SIGNALS",
     summary: "Anytime someone on our website is connected on LinkedIn to any of our investors, advisors, or employees, we send a Slack alert.",
     technical: [
-      "Create a table in Clay that has all your outbound contacts receiving emails (we used Smartlead)",
-      "Create a second table in Clay that pushes web reveal traffic via webhook (we used Vector)",
-      "Lookup Vector traffic against Smartlead contacts to determine if there's a match",
-      "If there's a match, send Slack alert (via built in Clay connector) identifying that contact",
-      "Manually decide whether to put the person in a higher intent Smartlead campaign or if someone would manually outreach to them (based on contact/account priority)",
+      "Add all your advisors' and investors' (and anyone else's) LinkedIn connections to a Google sheet",
+      "Setup a webhook and a Google Apps Script that takes in Vector traffic and adds it to a new sheet row",
+      "Create functions that lookup if anyone is connected to them or anyone at their company",
+      "Setup a Slack webhook that pushes connection data to a Slack channel"
     ],
     tools: ["Claude", "Vector", "Google Sheets", "Slack", "LinkedIn"],
     results: [
