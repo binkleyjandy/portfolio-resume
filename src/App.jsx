@@ -97,41 +97,6 @@ const PROJECTS = [
     deployed: false,
   },
   {
-    name: "Trade Show Meeting Booking App",
-    tag: "TOOL",
-    summary: "Lets event organizers schedule and coordinate meetings by managing people, locations, and time slots all in one place — preventing double-bookings and keeping everyone informed in real-time.",
-    technical: [
-      "Create an event and add the key details — the people attending (both your team and external guests) and the meeting rooms/locations available",
-      "Use the \"Create Meeting\" button to book a meeting by picking a date, time, location, and who should attend",
-      "The Calendar view shows all your people and locations side-by-side, so you can instantly see who's busy and which rooms are taken",
-      "The Meetings List gives you a simple table of every scheduled meeting with all the details — click any meeting to see or edit it",
-      "When a meeting is booked, it automatically appears on everyone's calendar and marks the location as occupied, so there are no double-bookings",
-    ],
-    tools: ["Lovable"],
-    results: [
-      "Didn't implement this at the business level, only as a side project",
-      "Almost commercialized this, but didn't have interest in the enterprise trade show category",
-    ],
-    deployed: false,
-  },
-  {
-    name: "HTML-Based Video Animation Tool",
-    tag: "TOOL",
-    summary: "Create animated product videos from a library of media animations and common product components that can be animated across a timeline to create an agency-level product video.",
-    technical: [
-      "Database (MongoDB) — Stores all your project data like videos, templates, branding, and uploaded assets",
-      "Server (Express.js) — Handles requests between the React frontend, MongoDB database, and AWS S3 cloud storage",
-      "Editor (React) — Visual drag-and-drop workspace for building video content using reusable branded components",
-      "Media (Sharp + FFmpeg) — Sharp processes images on the server; FFmpeg handles video tasks in the browser",
-    ],
-    tools: ["Cursor", "ChatGPT"],
-    results: [
-      "Didn't implement this at the business level, only as a side project",
-      "Almost commercialized this, but didn't find enough pull in the market",
-    ],
-    deployed: false,
-  },
-  {
     name: "Gmail → Slack Notification Agent",
     tag: "AUTOMATION",
     summary: "Automatically check Gmail every 5 minutes and send any new emails to a Slack channel.",
@@ -164,6 +129,41 @@ const PROJECTS = [
     tools: ["DataForSEO", "Claude Code", "VS Code", "LinkedIn", "Google Sheets (Scripts)", "OpenAI"],
     results: [
       "Didn't implement this at the business level, only as a side project",
+    ],
+    deployed: false,
+  },
+  {
+    name: "Trade Show Meeting Booking App",
+    tag: "TOOL",
+    summary: "Lets event organizers schedule and coordinate meetings by managing people, locations, and time slots all in one place — preventing double-bookings and keeping everyone informed in real-time.",
+    technical: [
+      "Create an event and add the key details — the people attending (both your team and external guests) and the meeting rooms/locations available",
+      "Use the \"Create Meeting\" button to book a meeting by picking a date, time, location, and who should attend",
+      "The Calendar view shows all your people and locations side-by-side, so you can instantly see who's busy and which rooms are taken",
+      "The Meetings List gives you a simple table of every scheduled meeting with all the details — click any meeting to see or edit it",
+      "When a meeting is booked, it automatically appears on everyone's calendar and marks the location as occupied, so there are no double-bookings",
+    ],
+    tools: ["Lovable"],
+    results: [
+      "Didn't implement this at the business level, only as a side project",
+      "Almost commercialized this, but didn't have interest in the enterprise trade show category",
+    ],
+    deployed: false,
+  },
+  {
+    name: "HTML-Based Video Animation Tool",
+    tag: "TOOL",
+    summary: "Create animated product videos from a library of media animations and common product components that can be animated across a timeline to create an agency-level product video.",
+    technical: [
+      "Database (MongoDB) — Stores all your project data like videos, templates, branding, and uploaded assets",
+      "Server (Express.js) — Handles requests between the React frontend, MongoDB database, and AWS S3 cloud storage",
+      "Editor (React) — Visual drag-and-drop workspace for building video content using reusable branded components",
+      "Media (Sharp + FFmpeg) — Sharp processes images on the server; FFmpeg handles video tasks in the browser",
+    ],
+    tools: ["Cursor", "ChatGPT"],
+    results: [
+      "Didn't implement this at the business level, only as a side project",
+      "Almost commercialized this, but didn't find enough pull in the market",
     ],
     deployed: false,
   },
